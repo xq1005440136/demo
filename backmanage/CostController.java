@@ -63,7 +63,7 @@ public class CostController {
     }
 
     /**
-     * 营业成本 删除
+     * 营业成本 删除，删除
      */
     @PostMapping(path = "/delete")
     public ResponseData deleteCost(String id) {
